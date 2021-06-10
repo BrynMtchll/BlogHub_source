@@ -1,0 +1,35 @@
+{
+  "name": "blog-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "blog-hub",
+  "author": "BrynMtchll",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^3.2.1",
+    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-sass": "^4.4.0",
+    "gatsby-plugin-styled-components": "^4.4.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-contentful": "^5.4.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.12",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
